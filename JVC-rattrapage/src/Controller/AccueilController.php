@@ -9,15 +9,14 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 Class AccueilController extends AbstractController
 {
     /**
-     * @Route("accueilJVC", name="accueil")
+     * @Route("/JVC/accueil/{max}", name="accueil_JVC")
      */
 
 
      public function accueil()
     {
-            return
+        return $this->render('templates/accueil.html.twig');
     }
-
 
 
 }

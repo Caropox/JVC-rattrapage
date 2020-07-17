@@ -15,7 +15,7 @@ Class AccueilController extends AbstractController
 
      public function accueil()
     {
-        return $this->render('templates/accueil.html.twig');
+        return $this->render('accueil.html.twig');
     }
 
 

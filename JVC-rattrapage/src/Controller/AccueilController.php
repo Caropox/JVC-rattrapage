@@ -9,7 +9,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 Class AccueilController extends AbstractController
 {
     /**
-     * @Route("/JVC/accueil/{max}", name="accueil_JVC")
+     * @Route("/", name="accueil_JVC")
      */
 
 

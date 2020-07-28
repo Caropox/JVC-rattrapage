@@ -4,7 +4,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Lato', sans-serif;
-    background-image: url("/img/halo-infinite.jpg");
+    background-image: url("/img/halo.jpg");
 }
 
 header {
@@ -39,24 +39,30 @@ ul li {
 
 .first {
     text-align: center;
+    border: solid red 1px;
 }
 
 .second {
     text-align: center;
+    border: solid red 1px;
 }
 
 .third {
     text-align: center;
+    border: solid red 1px;
 }
 
 .four {
     text-align: center;
+    border: solid red 1px;
 }
 
 .five {
     text-align: center;
+    border: solid red 1px;
 }
 
 .six {
     text-align: center;
+    border: solid red 1px;
 }

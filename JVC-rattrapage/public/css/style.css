@@ -31,3 +31,35 @@ ul li {
     padding: 1.5em;
     font-size: 1em;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas: ". . ." ". . .";
+}
+
+.first {
+    text-align: center;
+}
+
+.second {
+    text-align: center;
+}
+
+.third {
+    text-align: center;
+}
+
+.four {
+    text-align: center;
+}
+
+.five {
+    text-align: center;
+}
+
+.six {
+    text-align: center;
+}

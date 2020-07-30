@@ -20,7 +20,8 @@ ul li {
 
 .menu {
     text-align: center;
-    background-color: rgb(19, 97, 122);;
+    background-color: rgb(19, 97, 122);
+    margin-bottom: 3em;
 }
 
 .menu ul li {
@@ -39,6 +40,9 @@ ul li {
 
 .first {
     text-align: center;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+    border: solid red 1px;
 }
 
 #img1 {
@@ -47,6 +51,8 @@ ul li {
 
 .second {
     text-align: center;
+    margin-bottom: 1em;
+    border: solid red 1px;
 }
 
 #img2 {
@@ -55,14 +61,19 @@ ul li {
 
 .third {
     text-align: center;
+    margin-bottom: 1em;
+    margin-right: 1.5em;
+    border: solid red 1px;
 }
 
 #img3 {
-    width: 50%;
+    width: 55%;
 }
 
 .four {
     text-align: center;
+    margin-left: 1.5em;
+    border: solid red 1px;
 }
 
 #img4 {
@@ -71,6 +82,7 @@ ul li {
 
 .five {
     text-align: center;
+    border: solid red 1px;
 }
 
 #img5 {
@@ -79,8 +91,10 @@ ul li {
 
 .six {
     text-align: center;
+    margin-right: 1.5em;
+    border: solid red 1px;
 }
 
 #img6 {
-    width: 50%;
+    width: 55%;
 }

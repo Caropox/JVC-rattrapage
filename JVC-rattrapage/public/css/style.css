@@ -4,7 +4,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Lato', sans-serif;
-    background-image: url("/img/halo2.jpg");
+    background-image: url("/img/poke.png");
 }
 
 header {
@@ -39,74 +39,80 @@ ul li {
 }
 
 .first {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 1.5em;
     margin-left: 2.5em;
     border: solid red 1px;
-    color: white;
     font-size: 1.2em;
+    color: white;
 }
 
 #img1 {
-    width: 60%;
+    width: 65%;
+    padding-left: 20%;
 }
 
 .second {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 1.5em;
     border: solid red 1px;
-    color: white;
     font-size: 1.2em;
+    color: white;
 }
 
 #img2 {
-    width: 60%;
+    width: 59%;
+    padding-left: 20%;
 }
 
 .third {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 1.5em;
     margin-right: 2.5em;
     border: solid red 1px;
-    color: white;
     font-size: 1.2em;
+    color: white;
 }
 
 #img3 {
-    width: 60%;
+    width: 70%;
+    padding-left: 15%;
 }
 
 .four {
-    text-align: center;
+    text-align: justify;
     margin-left: 2.5em;
     border: solid red 1px;
-    color: white;
     font-size: 1.2em;
+    color: white;
 }
 
 #img4 {
-    width: 60%;
+    width: 65%;
+    padding-left: 20%;
 }
 
 .five {
-    text-align: center;
+    text-align: justify;
     border: solid red 1px;
-    color: white;
     font-size: 1.2em;
+    color: white;
 }
 
 #img5 {
     width: 60%;
+    padding-left: 20%;
 }
 
 .six {
-    text-align: center;
+    text-align: justify;
     margin-right: 2.5em;
     border: solid red 1px;
-    color: white;
     font-size: 1.2em;
+    color: white;
 }
 
 #img6 {
-    width: 60%;
+    width: 75%;
+    padding-left: 13%
 }

@@ -18,6 +18,10 @@ ul li {
     font-size: 1.3em;
 }
 
+ul li:hover {
+    color: lightblue;
+  }
+
 .menu {
     text-align: center;
     background-color: rgb(19, 97, 122);
@@ -28,6 +32,10 @@ ul li {
     display: inline-block;
     padding: 1.5em;
     font-size: 1em;
+}
+
+.menu ul li:hover {
+  color: lightblue;
 }
 
 .grid-container {

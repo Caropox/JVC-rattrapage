@@ -41,10 +41,14 @@ ul li {
 .first {
     text-align: justify;
     margin-bottom: 1.5em;
-    margin-left: 2.5em;
-    border: solid red 1px;
+    margin-left: 2em;
     font-size: 1.2em;
     color: white;
+    cursor: pointer;
+}
+
+.first:hover {
+    color: purple;
 }
 
 #img1 {
@@ -55,9 +59,15 @@ ul li {
 .second {
     text-align: justify;
     margin-bottom: 1.5em;
-    border: solid red 1px;
+    padding-left: 1em;
+    padding-right: 1em;
     font-size: 1.2em;
     color: white;
+    cursor: pointer;
+}
+
+.second:hover {
+    color: purple;
 }
 
 #img2 {
@@ -68,10 +78,14 @@ ul li {
 .third {
     text-align: justify;
     margin-bottom: 1.5em;
-    margin-right: 2.5em;
-    border: solid red 1px;
+    margin-right: 2em;
     font-size: 1.2em;
     color: white;
+    cursor: pointer;
+}
+
+.third:hover {
+    color: purple;
 }
 
 #img3 {
@@ -81,10 +95,14 @@ ul li {
 
 .four {
     text-align: justify;
-    margin-left: 2.5em;
-    border: solid red 1px;
+    margin-left: 2em;
     font-size: 1.2em;
     color: white;
+    cursor: pointer;
+}
+
+.four:hover {
+    color: purple;
 }
 
 #img4 {
@@ -94,9 +112,15 @@ ul li {
 
 .five {
     text-align: justify;
-    border: solid red 1px;
     font-size: 1.2em;
+    padding-left: 1em;
+    padding-right: 1em;
     color: white;
+    cursor: pointer;
+}
+
+.five:hover {
+    color: purple;
 }
 
 #img5 {
@@ -106,10 +130,14 @@ ul li {
 
 .six {
     text-align: justify;
-    margin-right: 2.5em;
-    border: solid red 1px;
+    margin-right: 2em;
     font-size: 1.2em;
     color: white;
+    cursor: pointer;
+}
+
+.six:hover {
+    color: purple;
 }
 
 #img6 {

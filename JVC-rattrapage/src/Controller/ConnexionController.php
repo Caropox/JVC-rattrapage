@@ -9,7 +9,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 Class ConnexionController extends AbstractController
 {
     /**
-     * @Route("/", name="Connexion_JVC")
+     * @Route("/connexion/", name="Connexion_JVC")
      */
 
 

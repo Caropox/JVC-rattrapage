@@ -55,6 +55,10 @@ ul li:hover {
     cursor: pointer;
 }
 
+.first a {
+    text-decoration: none;
+}
+
 .first:hover {
     color: purple;
 }

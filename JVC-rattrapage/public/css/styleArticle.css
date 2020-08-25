@@ -7,6 +7,57 @@ body {
     background-image: url("/img/poke.png");
 }
 
-h1 {
+header {
     text-align: center;
+    background-color: rgb(16, 144, 187);
+}
+
+ul li {
+    display: inline-block;
+    padding: 1.5em;
+    font-size: 1.3em;
+}
+
+ul li:hover {
+    color: lightblue;
+  }
+
+.menu {
+    text-align: center;
+    background-color: rgb(19, 97, 122);
+    margin-bottom: 3em;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 1.5em;
+    font-size: 1em;
+}
+
+.menu ul li:hover {
+  color: lightblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.4fr 0.6fr;
+    grid-template-rows: ;
+    gap: 10px 10px;
+    grid-template-areas: ". .";
+  }
+
+.first {
+    margin-left: 15%;
+    font-size: 1.4em;
+}
+
+#img1 {
+    width: 80%;
+}
+
+.text {
+    text-align: justify;
+    margin-left: 10.5%;
+    margin-right: 40%;
+
 }

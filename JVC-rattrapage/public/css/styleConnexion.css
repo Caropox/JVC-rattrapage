@@ -61,3 +61,22 @@ input[type=password] {
     width: 15%;
     padding: 0.5em 0;
 }
+
+.btnvalider {
+    margin-top: 4%;
+}
+
+input[type=button] {
+    background-color: lightblue;
+    border: none;
+    width: 8%;
+    font-weight: bold;
+    padding: 0.2em 0;
+    border-radius: .3em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: rgb(40, 164, 202);
+}

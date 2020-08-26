@@ -36,21 +36,6 @@ input[type=text] {
     padding: 0.5em 0;
 }
 
-.email {
-    margin-bottom: 4%;
-}
-
-.btnmail {
-    padding-top: 1.2em;
-}
-
-input[type=email] {
-    border: 1px solid black;
-    border-radius: .3em;
-    width: 15%;
-    padding: 0.5em 0;
-}
-
 .btnpassword {
     padding-top: 1.2em;
 }

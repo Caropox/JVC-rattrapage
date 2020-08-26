@@ -18,6 +18,22 @@ Class ConnexionController extends AbstractController
         return $this->render('connexion.html.twig');
     }
 
+    public function show($id)
+    {
+        $connexion = $this->getDoctrine()
+            ->getRepository(Connexion::class)
+            ->find($id);
+
+        if (!$connexion) {
+            throw $this->createNotFoundException(
+                'Not Foud' .$id
+            );
+        }
+
+        return new Response('Look at this name' .$connexion->getName());
+        
+    }
+
 
 }
 ?>

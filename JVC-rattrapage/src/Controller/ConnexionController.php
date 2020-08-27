@@ -40,6 +40,9 @@ Class ConnexionController extends AbstractController
 
     $Name = $_POST["Name"];
     $Password = $_POST["Password"];
+
+    echo 'Name : '.$_POST["Name"].'<br>';
+    echo 'Password : ' .$_POST["Password"].'<br>';
         
         try {
             //Connexion à la bdd

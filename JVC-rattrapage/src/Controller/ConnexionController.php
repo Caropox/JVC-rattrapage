@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use PDO;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -32,7 +33,34 @@ Class ConnexionController extends AbstractController
 
         return new Response('Look at this name' .$connexion->getName());
         
+    $serveur = "localhost";
+    $dbname = "db_name";
+    $user = "root";
+    $pass = "";
+
+    $Name = $_POST["Name"];
+    $Password = $_POST["Password"];
+        
+        try {
+            //Connexion à la bdd
+            $dbco = new PDO("mysql:host=$serveur;dbname=$dbname",$user,$pass);
+            $dbco->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+            //Insérer les données reçues
+            $sth = $dbco->prepare("
+                INSERT INTO form(Name, Password)
+                VALUES(:Names, :Passowrd)");
+            $sth->bindParam(':Name',$Name);
+            $sth->bindParam(':Password',$Password);
+        }
+
+        catch(PDOException $e){
+        echo 'Impossible de traiter les données. Erreur : '.$e->getMessage();
+        }
+
     }
+
+
 
 
 }
